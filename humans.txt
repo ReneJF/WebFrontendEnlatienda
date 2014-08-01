@@ -1,0 +1,31 @@
+/* TEAM */
+	Chef:JuanJose Alban
+	Contact: j [at] launchzap.com
+	Twitter: @juanjose_alban
+	From: Pasto, Colombia
+
+	Ui Design: Gina Sanchez
+	Twitter: @prolegrafica
+	From: Bogotá, Colombia
+
+	Brand design: John Fernando Granada
+	Twitter: @oneeyedman
+	From:Madrid, Spain
+
+	Ui Developer: Juan José Alban
+	Twitter: @juanjose_alban
+	From: Pasto, Colombia
+
+	Web designer: Gina Sanchez
+	Twitter: @juanjose_alban
+	From: Pasto, Colombia
+
+/* THANKS */
+
+		
+
+/* SITE */
+	Last update:2012/02/04
+	Language: Català / Czech / Deutsch / English / Castellano / Japanese / Dutch / Russian / Chinese
+	Doctype:HTML5
+	IDE: Sublime Text, Photoshop
