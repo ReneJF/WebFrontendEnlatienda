@@ -29,10 +29,11 @@ Estructura de informacion blog
 
 <tema>
 	{
-	<H2>
+	<H2> <!-- titulo del tema -->
 	<scroll viewport container>
 		{
-			<ficha de articulo>
+			<ficha de articulo>*N <!-- los ultimos 10 articulos en cada viewport-->
 				{imagen, titulo}
+			<ficha de articulo>
 		}
 	}
