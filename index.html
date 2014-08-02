@@ -5,12 +5,19 @@
 	<meta name ="description" content ="Conoce la nueva forma de pagar en linea, una forma mucho mas humana, y mucho mas cercana a ti y a tus clientes"
 	<meta name ="keywords" content="">
 	<link type="text/plain" rel="author" href="http://www.enlatienda.co/humans.txt">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+	<meta charset="UTF-8">
+	<script src="../components/platform/platform.js">
+	</script>
+	<link rel="import" href="../components/font-roboto/roboto.html">
+	<link rel="import"href "../components/scroll/scroll.html">
+	<link rel="import" href="/bower_components/core-icons/core-icons.html">
 	<title>EnLaTienda, cualquier lugar puede ser un punto de pago</title>
 </head>
 <body>
 	<header>
-		<a href="" class="paydots_logo"><img src="logo" id="logo"></a>
-		<a href="" class="paydots_signin"></a> 
+		<a href="" class="Enlatienda_logo"><img src="logo" id="logo"></a>
+		<a href="" class="Enlatienda_logo"></a> 
 	</header>
 		<section id="hero">
 				<!-- imagen de personas felices utilizando celular, fondo en blanco-->
@@ -21,19 +28,50 @@
 				<!-- correo electronico-->				
 			</div><!--mailchimp-->
 		</section>
+
+		<section id="Caracteristicas">
+			<ul>
+				(<li id="funcion">
+					<h3></h3>
+					<img src="" alt="">
+					<p></p>
+				</li>
+				<li id="funcion">
+					<h3></h3>
+					<img src="" alt="">
+					<p></p>
+				</li>
+				<li id="funcion">
+					<h3></h3>
+					<img src="" alt="">
+					<p></p>
+				</li>
+			</ul>
+		</section>
+		<section id="clientes_block">
+			<p><!--(numero de) empresas confian en nosotros!--></p>
+			<!-- usar el mismo <scroll viewport container> que en la biblioteca -->
+			<scroll> img[src="../imagenes/externos/logo$.png" alt="nombreempresa$"]*n </scroll>
+		</section>
+
 		<nav><!--Seccion de navegación-->
-			<a href="blog.enlatienda.co" id="blog">Startups</a> |
-			<a href="**" id="Clientes">Clientes</a> |
-			<a href="**" id="puntos de pago">Puntos de pago</a> |
+			<a href="biblioteca.enlatienda.co" id="blog">Biblioteca para Startups</a> |
+			<a href="clientes.enlatienda.co" id="Clientes">Clientes</a> |
+			<a href="midleman.enlatienda.co" id="puntos de pago">Puntos de pago</a> |
 			<a href="comercios.enlatienda.co" id="comercios">Comercios</a> |
-			<a href="**" id ="Caracteristicas">Caracteristicas</a> |
-			<a href="soporte" id="Soporte"></a>
+			<a href="caracteristicas.enlatienda.co" id ="Caracteristicas">Sistema de pagos</a> |
+			<a href="soporte.enlatienda.co" id="Soporte">Soporte</a> |
+			<a href="developers.enlatienda.co" id="Desarrolladores">Desarrolladores</a>
 		</nav>
 		<footer>
 			<blockquote>(C)2014 EnLaTienda.co, Todo el material disponible se encuentra bajo licencia CreativeCommons Atribucion-CompartirIgual</blockquote>
 			<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>.<br />Basada en una obra en <a xmlns:dct="http://purl.org/dc/terms/" href="www.enlatienda.co" rel="dct:source">www.enlatienda.co</a>.
 			<a href="http://www.w3.org/html/logo/">
 				<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" lang="en">
+			</a>
+			<a href="www.polymer-project.org">
+				<p>Usamos Polymer y Web Elements</p>
+				<core-icon icon="polymer"></core-icon>
 			</a>
 			
 		</footer>

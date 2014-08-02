@@ -1,11 +1,26 @@
 Estructura de directorios
+*************************
 
+Imagenes  {Logotipos, iconos usados en todo el sitio}
+ Externos {logotipos correspondientes a otras empresas}
+Estilos
+Clientes
+	Imagenes
+Midleman
+	Imagenes
+Comercios
+	Imagenes
+Caracteristicas
+	Imagenes
+Soporte
+	Imagenes
 landing
 	imagenes
-	estilos
-blog
+biblioteca
+	Polymer
+		Elements
+		Core
 	imagenes
-	estilos
 	contenido
 		tema1
 			articulo1.html
@@ -21,11 +36,10 @@ blog
 		tema2
 		tema3
 		temax
-site
 
 ****
 
-Estructura de informacion blog
+Estructura de informacion Biblioteca
 
 Para biblioteca.indice:
 
@@ -36,14 +50,20 @@ tempor incididunt ut labore et dolore magna aliqua. </p>
 <tema>*N [/tema#]
 	{
 	<H2> <!-- titulo del tema -->
-	<scroll viewport container>
+	<scroll>
 		{
 			(<a href="/tema#/articulo$.html><ficha de articulo></a>)*N [/tema#/articulo$]
 				{imagen, titulo}
 			<!-- los ultimos 10 articulos en cada viewport-->
 		}
 	}
-
+footer
+{
+p{HandCrafted by Enlatienda.co}
+p{Follow us on a[www.twitter.com/enlatiendaco]twitter+ , +a[fb.com/enlatiendaco]Facebook+ , y +a[plus.google.com/enlatiendaco]"Google+"
+p{Copyleft, licencia atribucion-CompartirIgual 4.0}
+p{2014 Enlatienda.co / Algunos derechos reservados / a[http://enlatienda.co/Privacy]"Politica de Privacidad"}
+}
 
 ***
 
@@ -53,7 +73,15 @@ h6.navegador a[blog.enlatienda.co/index]
 h1.tema
 article.list.tema
 	(<a href="/tema#/articulo$.html><ficha de articulo></a>)*N [/tema#/articulo$]
-				{imagen, titulo}
+		{imagen, titulo}
+
+footer
+{
+p{HandCrafted by Enlatienda.co}
+p{Follow us on a[www.twitter.com/enlatiendaco]twitter+ , +a[fb.com/enlatiendaco]Facebook+ , y +a[plus.google.com/enlatiendaco]"Google+"
+p{Copyleft, licencia atribucion-CompartirIgual 4.0}
+p{2014 Enlatienda.co / Algunos derechos reservados / a[http://enlatienda.co/Privacy]"Politica de Privacidad"}
+}
 
 ***
 
@@ -63,3 +91,10 @@ h6.navegador a[blog.enlatienda.co/index]{EnLaTienda, Biblioteca} | a[blog.enlati
 h1.articulo
 article
 	{contenido}
+footer
+{
+p{HandCrafted by Enlatienda.co}
+p{Follow us on a[www.twitter.com/enlatiendaco]twitter+ , +a[fb.com/enlatiendaco]Facebook+ , y +a[plus.google.com/enlatiendaco]"Google+"
+p{Copyleft, licencia atribucion-CompartirIgual 4.0}
+p{2014 Enlatienda.co / Algunos derechos reservados / a[http://enlatienda.co/Privacy]"Politica de Privacidad"}
+}
