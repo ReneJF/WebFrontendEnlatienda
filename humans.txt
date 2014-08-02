@@ -24,7 +24,7 @@
 
 	Brand design: John Fernando Granada
 	Twitter: @oneeyedman
-	From:Madrid, Spain		
+	From: Medellin, Colombia	
 
 /* SITE */
 	Last update:2014/08/01
