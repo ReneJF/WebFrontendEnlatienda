@@ -26,13 +26,15 @@ site
 
 Estructura de informacion blog
 
-
-<tema>
+<H1>EnLaTienda | Biblioteca para Startups </h1>
+<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. </p>
+<tema>*N [/tema#]
 	{
 	<H2> <!-- titulo del tema -->
 	<scroll viewport container>
 		{
-			<ficha de articulo>*N <!-- los ultimos 10 articulos en cada viewport-->
+			<ficha de articulo>*N [/tema#/articulo$] <!-- los ultimos 10 articulos en cada viewport-->
 				{imagen, titulo}
 			<ficha de articulo>
 		}
