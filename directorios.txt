@@ -22,3 +22,17 @@ blog
 		tema3
 		temax
 site
+
+
+Estructura de informacion blog
+
+
+<tema>
+	{
+	<H2>
+	<scroll viewport container>
+		{
+			<ficha de articulo>
+				{imagen, titulo}
+		}
+	}
