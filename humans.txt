@@ -8,10 +8,6 @@
 	Twitter: @prolegrafica
 	From: Bogotá, Colombia
 
-	Brand design: John Fernando Granada
-	Twitter: @oneeyedman
-	From:Madrid, Spain
-
 	Ui Developer: Juan José Alban
 	Twitter: @juanjose_alban
 	From: Pasto, Colombia
@@ -20,12 +16,17 @@
 	Twitter: @juanjose_alban
 	From: Pasto, Colombia
 
+	web developer: Rene Josseph Fajardo Valdes
+	twitter:@renejs
+	From: Cali, Colombia
+
 /* THANKS */
 
-		
+	Brand design: John Fernando Granada
+	Twitter: @oneeyedman
+	From:Madrid, Spain		
 
 /* SITE */
-	Last update:2012/02/04
-	Language: Català / Czech / Deutsch / English / Castellano / Japanese / Dutch / Russian / Chinese
-	Doctype:HTML5
+	Last update:2014/08/01
+	Doctype:HTML5 // CSS3 // PollyFills // Polymer
 	IDE: Sublime Text, Photoshop
