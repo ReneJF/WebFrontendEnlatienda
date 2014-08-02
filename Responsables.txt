@@ -1,9 +1,17 @@
-Estructura de directorios
 *************************
+Landing
+*************************
+Desarrollo: Juan José Albán, Rene J Fajardo,
+Diseño: Gina Sanchez , Juan Jose Alban
 
+*************************
+Polymer {carpeta de sistema}
 Imagenes  {Logotipos, iconos usados en todo el sitio}
  Externos {logotipos correspondientes a otras empresas}
 Estilos
+
+
+
 Clientes
 	Imagenes
 Midleman
@@ -16,8 +24,19 @@ Soporte
 	Imagenes
 landing
 	imagenes
+
+**************************
+Biblioteca
+*************************
+Desarrollo: Juan José Albán, Rene J Fajardo,
+Diseño: Gina Sanchez , Juan Jose Alban
+
+*************************
+
 biblioteca
-	Polymer
+	Equipo
+	Estilos
+	Polymer{carpeta de sistema}
 		Elements
 		Core
 	imagenes
@@ -37,9 +56,10 @@ biblioteca
 		tema3
 		temax
 
-****
-
+****************
 Estructura de informacion Biblioteca
+****************
+
 
 Para biblioteca.indice:
 
@@ -65,9 +85,10 @@ p{Copyleft, licencia atribucion-CompartirIgual 4.0}
 p{2014 Enlatienda.co / Algunos derechos reservados / a[http://enlatienda.co/Privacy]"Politica de Privacidad"}
 }
 
-***
 
+****************
 Para Biblioteca.Tema
+****************
 
 h6.navegador a[blog.enlatienda.co/index]
 h1.tema
@@ -83,9 +104,9 @@ p{Copyleft, licencia atribucion-CompartirIgual 4.0}
 p{2014 Enlatienda.co / Algunos derechos reservados / a[http://enlatienda.co/Privacy]"Politica de Privacidad"}
 }
 
-***
-
-Para Biblioteca.articulo
+****************
+Para Biblioteca.articulos
+****************
 
 h6.navegador a[blog.enlatienda.co/index]{EnLaTienda, Biblioteca} | a[blog.enlatienda.co/*tema*]
 h1.articulo
