@@ -23,19 +23,43 @@ blog
 		temax
 site
 
+****
 
 Estructura de informacion blog
+
+Para biblioteca.indice:
 
 <H1>EnLaTienda | Biblioteca para Startups </h1>
 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. </p>
+
 <tema>*N [/tema#]
 	{
 	<H2> <!-- titulo del tema -->
 	<scroll viewport container>
 		{
-			<ficha de articulo>*N [/tema#/articulo$] <!-- los ultimos 10 articulos en cada viewport-->
+			(<a href="/tema#/articulo$.html><ficha de articulo></a>)*N [/tema#/articulo$]
 				{imagen, titulo}
-			<ficha de articulo>
+			<!-- los ultimos 10 articulos en cada viewport-->
 		}
 	}
+
+
+***
+
+Para Biblioteca.Tema
+
+h6.navegador a[blog.enlatienda.co/index]
+h1.tema
+article.list.tema
+	(<a href="/tema#/articulo$.html><ficha de articulo></a>)*N [/tema#/articulo$]
+				{imagen, titulo}
+
+***
+
+Para Biblioteca.articulo
+
+h6.navegador a[blog.enlatienda.co/index]{EnLaTienda, Biblioteca} | a[blog.enlatienda.co/*tema*]
+h1.articulo
+article
+	{contenido}
