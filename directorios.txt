@@ -9,15 +9,15 @@ blog
 	contenido
 		tema1
 			articulo1.html
-				{texto, imagenes, metainf}
+				{titulo, imagenes, contenido, autor, metainf}
 			articulo2.html
-				{texto, imagenes, metainf}
+				{titulo, imagenes, contenido, autor, metainf}
 			articulo3.html
-				{texto, imagenes, metainf}
+				{titulo, imagenes, contenido, autor, metainf}
 			articulo4.html
-				{texto, imagenes, metainf}
+				{titulo, imagenes, contenido, autor, metainf}
 			articulox.html
-				{texto, imagenes, metainf}
+				{titulo, imagenes, contenido, autor, metainf}
 		tema2
 		tema3
 		temax
