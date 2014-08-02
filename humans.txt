@@ -17,7 +17,7 @@
 	From: Pasto, Colombia
 
 	web developer: Rene Josseph Fajardo Valdes
-	twitter:@renejs
+	twitter:@renejf
 	From: Cali, Colombia
 
 /* THANKS */

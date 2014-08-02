@@ -1,0 +1,24 @@
+Estructura de directorios
+
+landing
+	imagenes
+	estilos
+blog
+	imagenes
+	estilos
+	contenido
+		tema1
+			articulo1.html
+				{texto, imagenes, metainf}
+			articulo2.html
+				{texto, imagenes, metainf}
+			articulo3.html
+				{texto, imagenes, metainf}
+			articulo4.html
+				{texto, imagenes, metainf}
+			articulox.html
+				{texto, imagenes, metainf}
+		tema2
+		tema3
+		temax
+site
