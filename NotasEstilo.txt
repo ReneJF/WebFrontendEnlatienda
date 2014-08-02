@@ -1,0 +1,24 @@
+/* notas para el estilo H1 H2 H3 H4 H5 */
+
+<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+
+
+text-fill-color: transparent;
+background-clip: text;
+
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+.background-clip .content .texture-$ {
+background: #ffffff url(../imagenes/text-texture-$.jpg);
+font-size: 60px;
+line-height: 1em;
+margin-bottom: 20px;
+-webkit-font-feature-settings: "kern", "liga", "case";
+-moz-font-feature-settings: "kern=1", "liga=1", "case=1";
+-moz-font-feature-settings: "kern", "liga", "case";
+font-feature-settings: "kern", "liga", "case";
+h1, h2, h3, h4, h5 {'dosis', brandon-grotesque', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+font-weight: 500;
+
+
+<!--textura de imagen como fondo de leta!!!! WOW -->

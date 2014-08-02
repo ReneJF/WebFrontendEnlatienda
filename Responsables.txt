@@ -1,17 +1,11 @@
 *************************
-Landing
+Estructura general de los directorios
 *************************
-Desarrollo: Juan José Albán, Rene J Fajardo,
-Diseño: Gina Sanchez , Juan Jose Alban
 
-*************************
 Polymer {carpeta de sistema}
 Imagenes  {Logotipos, iconos usados en todo el sitio}
- Externos {logotipos correspondientes a otras empresas}
-Estilos
-
-
-
+	Externos {logotipos correspondientes a otras empresas}
+Estilos {estilos generales del sitio, en raiz para tener un solo lenguaje visual en todo el sitio}
 Clientes
 	Imagenes
 Midleman
@@ -22,8 +16,52 @@ Caracteristicas
 	Imagenes
 Soporte
 	Imagenes
+landing{para los archivos de index.html}
+	imagenes
+	Estilos
+Estilos{carpeta de sistema}
+Imagenes{carpeta de sistema}
+biblioteca
+	Equipo
+	Estilos
+	Polymer{carpeta de sistema}
+		Elements
+		Core
+	imagenes
+	contenido
+		tema1
+			articulo1.html
+				{titulo, imagenes, contenido, autor, metainf}
+			articulo2.html
+				{titulo, imagenes, contenido, autor, metainf}
+			articulo3.html
+				{titulo, imagenes, contenido, autor, metainf}
+			articulo4.html
+				{titulo, imagenes, contenido, autor, metainf}
+			articulox.html
+				{titulo, imagenes, contenido, autor, metainf}
+		tema2
+		tema3
+		temax
+
+*************************
+Landing
+*************************
+Desarrollo: Juan José Albán, Rene J Fajardo,
+Diseño: Gina Sanchez , Juan Jose Alban
+
+*************************
+Esta es la estructura general de información para el area de landing
+
+
+
+****************
+Carpetas
+****************
+
 landing
 	imagenes
+	estilos
 
 **************************
 Biblioteca
@@ -32,7 +70,6 @@ Desarrollo: Juan José Albán, Rene J Fajardo,
 Diseño: Gina Sanchez , Juan Jose Alban
 
 *************************
-
 biblioteca
 	Equipo
 	Estilos
@@ -59,9 +96,10 @@ biblioteca
 ****************
 Estructura de informacion Biblioteca
 ****************
-
-
+	Esta es la estructura general de la informacion dentro de el area de biblioteca:
+********
 Para biblioteca.indice:
+********
 
 <H1>EnLaTienda | Biblioteca para Startups </h1>
 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -86,9 +124,9 @@ p{2014 Enlatienda.co / Algunos derechos reservados / a[http://enlatienda.co/Priv
 }
 
 
-****************
+********
 Para Biblioteca.Tema
-****************
+********
 
 h6.navegador a[blog.enlatienda.co/index]
 h1.tema
@@ -104,9 +142,9 @@ p{Copyleft, licencia atribucion-CompartirIgual 4.0}
 p{2014 Enlatienda.co / Algunos derechos reservados / a[http://enlatienda.co/Privacy]"Politica de Privacidad"}
 }
 
-****************
+********
 Para Biblioteca.articulos
-****************
+********
 
 h6.navegador a[blog.enlatienda.co/index]{EnLaTienda, Biblioteca} | a[blog.enlatienda.co/*tema*]
 h1.articulo
